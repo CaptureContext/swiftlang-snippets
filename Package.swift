@@ -25,11 +25,11 @@ let package = Package(
 		),
 		.package(
 			url: "https://github.com/capturecontext/swift-casification.git",
-			.upToNextMinor(from: "0.6.0"),
+			.upToNextMinor(from: "0.7.0"),
 		),
 		.package(
 			url: "https://github.com/capturecontext/swift-snippets.git",
-			branch: "cctx/myo-local"
+			.upToNextMinor(from: "0.1.0")
 		),
 		.package(
 			url: "https://github.com/capturecontext/swift-result-builders.git",
