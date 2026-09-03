@@ -20,7 +20,7 @@ let package = Package(
 	dependencies: [
 		.package(
 			url: "https://github.com/capturecontext/swiftlang-keywords.git",
-			.upToNextMinor(from: "0.0.1"),
+			.upToNextMinor(from: "0.0.3"),
 			traits: ["Latest"]
 		),
 		.package(
@@ -33,7 +33,7 @@ let package = Package(
 		),
 		.package(
 			url: "https://github.com/capturecontext/swift-result-builders.git",
-			.upToNextMajor(from: "0.0.2")
+			.upToNextMinor(from: "0.0.3")
 		),
 		.package(
 			url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
