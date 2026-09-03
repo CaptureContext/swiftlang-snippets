@@ -29,7 +29,7 @@ let package = Package(
 		),
 		.package(
 			url: "https://github.com/capturecontext/swift-snippets.git",
-			.upToNextMinor(from: "0.0.1")
+			branch: "cctx/myo-local"
 		),
 		.package(
 			url: "https://github.com/capturecontext/swift-result-builders.git",
@@ -37,7 +37,7 @@ let package = Package(
 		),
 		.package(
 			url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
-			.upToNextMajor(from: "1.19.2")
+			.upToNextMajor(from: "1.19.4")
 		),
 	],
 	targets: [
